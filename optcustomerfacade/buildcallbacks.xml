@@ -151,8 +151,8 @@
         <sequential>
             <echo message="installing my npm stuff"/>
            <repairnpmmacro/>
-            <invokeNpmCustomWorkingDir arguments="install" workingDir="${ext.mycoolextension.path}" />
-            <invokeNpmCustomWorkingDir arguments="run build" workingDir="${ext.mycoolextension.path}" />
+            <invokeNpmCustomWorkingDir arguments="install" workingDir="${ext.cmssmartedit.path}" />
+            <invokeNpmCustomWorkingDir arguments="run build" workingDir="${ext.cmssmartedit.path}" />
         </sequential>
     </macrodef>
 
